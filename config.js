@@ -6,12 +6,13 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "2349013432338; Opaksfire"
+const ownervb = process.env.OWNERS || "916002478761
+; Opaksfire"
 
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [bantu];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
